@@ -58,6 +58,7 @@ a{
     color: white;
     border-radius: 10px 10px 0 0;
     text-align: center;
+    user-select: none;
 }
 .location-map{
     transition-duration: 0.5s;
