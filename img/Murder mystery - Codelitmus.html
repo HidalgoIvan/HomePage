@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://www.codelitmus.com/events/1179/problems/284 -->
+<html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths wf-opensans-n3-active wf-opensans-n4-active wf-opensans-i4-active wf-opensans-n7-active wf-opensans-i7-active wf-opensanscondensed-n3-active wf-active" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./Murder mystery - Codelitmus_files/27c180ea69"></script><script src="./Murder mystery - Codelitmus_files/nr-1130.min.js.descarga"></script><script async="" src="./Murder mystery - Codelitmus_files/analytics.js.descarga"></script><script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"27c180ea69","applicationID":"6974760","transactionName":"cV9aREcLVVtUFktEFl1SWFVYFxZEWQsT","queueTime":0,"applicationTime":177,"agent":""}</script>
+<script>window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+                <title>Murder mystery - Codelitmus</title>
+
+		<link rel="stylesheet" media="screen" href="./Murder mystery - Codelitmus_files/application-2e559714103729c3e80e87a5ddc39c7e50df70a4e2e5b1adb2ed80d24bc18459.css">
+		<link rel="stylesheet" media="screen" href="./Murder mystery - Codelitmus_files/bootstrap.min.css" integrity="sha384-8+rznmq/k0KZkJlZhnuPEVkbRD7tA0wcFEjY48dajGWn3Xc1MasJwS8/tJ7OEsKW" crossorigin="anonymous">
+		<link rel="stylesheet" media="screen" href="./Murder mystery - Codelitmus_files/font-awesome.min.css" integrity="sha384-CmLV3WR+cw/TcN50vJSYAs2EAzhDD77tQvGcmoZ1KEzxtpl2K5xkrpFz9N2H9ClN" crossorigin="anonymous">
+		<script src="./Murder mystery - Codelitmus_files/webfontloader.js.descarga" integrity="sha384-WFPtzbUU8fm8NOp3/qLAaq3b0j6e1XFM7kUBhjtzkmwVG+GEOYrhCctcs3pgvUTp" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./Murder mystery - Codelitmus_files/css" media="all"><script>
+			WebFont.load({
+				google: {
+				families: ['Open Sans:300,400,400i,700,700i','Open Sans Condensed:300'],
+				text: 'abcdefghijklmnopqrstuvwxyz!'
+				}
+			});
+		</script>
+		<link rel="stylesheet" media="screen" href="./Murder mystery - Codelitmus_files/bootstrap-select.min.css" integrity="sha384-BL2qjs4JXR2GxLQQzNydF9dNg2CBJ5bW3CcoPl2XV7q6dyGaKTvPmVRnkv1HQc5g" crossorigin="anonymous">
+		<script src="./Murder mystery - Codelitmus_files/application-da51372a57dce8dfc0745ba67a635598f615388c7845b57df930ca5dcd06e0ca.js.descarga"></script>
+		<script src="./Murder mystery - Codelitmus_files/bootstrap.min.js.descarga" integrity="sha384-Nud2SriDt2fZ+u85IBC48Yn9p+l4AGlapnX1EGA2KrnZjYJx8sxKnw/CIxc1wU1B" crossorigin="anonymous"></script>
+		<script src="./Murder mystery - Codelitmus_files/socket.io.min.js.descarga" integrity="sha384-dii59wk95PrvS7Gx9iQKYQ+3o0oyqWceI0jD31fdaP3tVh64q69dbAs12J5+jQmY" crossorigin="anonymous"></script>
+		<script src="./Murder mystery - Codelitmus_files/bootstrap-select.min.js.descarga" integrity="sha384-4FvhhyQTsZaWLXKs7E5ZJHNPtuiVwyNc80ctCnhNricVDEUzR+7vZ0uyp5RwYN63" crossorigin="anonymous"></script>
+		<script src="./Murder mystery - Codelitmus_files/fingerprint-4c7afd1171821794dcfeea2825638787f58822f622c0df3b51f1d2d812183463.js.descarga"></script>
+		<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="AEMqtIKPC9ZMBe+s0J70av+/Z7Ag+tnnV/M3flDdBZ1s5aagKyPza0DHfnmQmjnfk3bI5zpJMdiCG8r+BDCYJA==">
+  </head>
+	<body>
+		<noscript>
+  <div id="javascript_tooltip" class="alert alert-danger">
+    <h4><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;Attention</h4>
+      <center>Codelitmus works with JavaScript enabled. And your browser seem to have disabled it. Please enable to continue.</center>
+  </div>
+  <link rel="stylesheet" media="screen" href="/assets/noscript-4bfbd4fc390d8702f3176781922655510aaa5d9ae3e2ba5e7bde5bd7b2e7334c.css" />
+</noscript>
+
+
+<!--bypass naive webrtc blocking using an iframe -->
+<iframe id="iframe" sandbox="allow-same-origin" style="display: none" src="./Murder mystery - Codelitmus_files/saved_resource.html"></iframe>
+<!-- Capturing internal ip -->
+
+<p id="notice" style="position: absolute;"></p>
+<div class="skeletal_text_hidden" style="display:none;">
+</div>
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">Report issues</h4>
+      </div>
+          <form class="nifty_form" action="https://www.codelitmus.com/events/report_issues" accept-charset="UTF-8" data-remote="true" method="get">
+      <div class="modal-body">
+          <textarea name="message" id="report_message" placeholder="Report any issues you faced or typos in the questions, should contain atleast 20 characters" class="form-control" rows="6"></textarea>
+          <input type="hidden" name="event_id" id="event_id" value="1179">
+          <input type="hidden" name="user_id" id="user_id" value="53031">
+          <input type="hidden" name="problem_title" id="problem_title" value="Murder mystery">
+          <input type="hidden" name="language_name" id="language_name">
+          <input type="hidden" name="user_event_id" id="user_event_id" value="66097">
+          <input type="hidden" name="host_name" id="host_name" value="www.codelitmus.com">
+          <input type="hidden" name="protocol" id="protocol" value="https://">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <input type="submit" name="commit" value="Submit" class="btn btn-default" id="submit_report" data-disable-with="Submit">
+
+        <div class="alert alert-success" role="alert" id="modal_alert_success" style="display:none">Feedback Sent,Thank you</div>
+        <div class="alert alert-danger" role="alert" id="modal_alert_failure" style="display:none">Message cannot be less than 10 characters</div>
+      </div>
+</form>    </div>
+  </div>
+</div>
+
+
+
+<div id="webcam_tooltip" class="alert alert-danger webcam_tooltip" style="display: none;">
+  <h4><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;Attention</h4>
+  <p>You will need to allow webcam access for the test to start.</p>
+  <p>In <b>Chrome</b>,<b>Opera</b> or <b>Safari</b> click the <span class="btn btn-default btn-sm">Allow</span> button at the top.</p>
+  <p>In <b>Firefox</b> click the <span class="btn btn-default btn-sm">Share&nbsp;Selected&nbsp;Device</span> button at the top.</p>
+  <p>Reload the page if you do not see these buttons. Contact support person if problem persists</p>
+</div>
+<div id="prob_elems" class="row" style="display: block; background-color: #ddd; margin: 0px;">
+  <div id="left-panel" class="col-md-1 col-sm-1 menu" style="height: 722px;">
+    <div id="timer_background" class="row text-center">
+      <h4 data-clocktimer="179408" data-user-event-id="66097" class="clocktimer hide-overflow">49:46:50</h4>
+    </div>
+    <div id="back-btn" rel="" title="Back to Event Page" class="row text-center back-item">
+      <a href="https://www.codelitmus.com/events/1179" class="btn-link"><i class="navbar-icon fa fa-arrow-left icon list_of_problems"></i></a>
+    </div>
+    <div id="instr-btn" rel="#instr-panel" title="Problem Instructions" class="row text-center text-muted menu-item clicked">
+      <i class="navbar-icon fa fa-file-text-o icon"></i>
+    </div>
+    <div id="exec-btn" rel="#exec-panel" title="Program Run Details" class="row text-center text-muted menu-item">
+      <i class="navbar-icon fa fa-cogs icon"></i>
+    </div>
+    <div id="report-btn" rel="#report-panel" title="Report Bugs" data-toggle="modal" data-target="#myModal" class="row text-center text-muted bug-item" style="color: yellow">
+      <i class="navbar-icon fa fa-bug icon"></i>
+    </div>
+    <!-- <div id="fldr-btn" rel="#fldr-panel" title="Directory Tree" class="row text-center text-muted menu-item">
+      <i class="navbar-icon fa fa-folder-open-o icon"></i>
+    </div> -->
+    <div id="vid-btn" title="Monitoring Video" class="row text-center text-muted vid-item clicked" style="position:absolute; bottom: 0px; width: 100%; display: none;">
+      <i class="navbar-icon fa fa-video-camera icon"></i>
+    </div>
+  </div>
+  <div id="instr-panel" class="col-md-5 col-sm-5 menu-panel panel-show" style="">
+
+    <div class="row panel panel-default" style="border: none; border-radius: 0px; margin-bottom: 0px;">
+      <div class="panel-heading" id="problem_header" style="height: 57px;">
+        <div id="prev-problem" class="col-md-1 col-sm-1" style="padding: 8px 0px;">
+
+        </div>
+        <div id="next-problem" class="col-md-1 col-sm-1" style="padding: 8px 0px;">
+                <a title="Next Problem: Bilbo and Subsets" href="https://www.codelitmus.com/events/1179/problems/197">
+                    <i class="fa fa-chevron-right fa-lg next_problem"></i>
+</a>
+        </div>
+        <h4 title="Murder mystery" class="hide-overflow col-md-9 col-sm-9" style="font-weight: bold; font-size: 1.2em;">Murder mystery
+        </h4>
+        <div id="instr-close" class="col-md-1 col-sm-1 text-default" style="cursor: pointer; text-align: right;padding: 8px 0px;">
+            <i class="navbar-icon fa fa-times fa-lg icon"></i>
+        </div>
+      </div>
+      <div id="instr-body" class="panel-body" style="overflow-y: auto; height: 664px;">
+        <p><strong>Problem Statement:<br></strong><br>Mr. Ranjit is an intelligence officer. He was assigned a murder case and given all witnesses found at site of the murder. After analyzing all witnesses given to him, he found victim's personal diary in which officer found something scrawled in the corner of a page. Now, Mr. Ranjit believes that the scrawled text is more mysterious and can help in solving the case. So he decides to find every occurrence of all the permutations of the scrawled text in the entire personal diary.<br><br>Since this is a huge task, Mr. Ranjit wants to take his colleague's help. Consider yourself as his colleague who helps him to figure out if any permutation of the scrawled text exists in the given text string, so he can save time and analyze only those text strings where a valid permutation is present.</p>
+<p><strong>Input Format:<br></strong><br>First line contains number of test cases T. Next, each test case contains two lines, first line contains the pattern and next line contains a text string. All characters in both the strings are in lowercase only [a-z].<br><br><strong>Output Format:<br></strong><br>For each test case print YES or NO depending on whether any permutation of the pattern exists in the text string.</p>
+<p><strong>Constraints:<br></strong><br>1 ≤ T ≤ 100<br>1 ≤ |Pattern| ≤ 1000<br>1 ≤ |Text String| ≤ 100000</p>
+<p><strong>Sample Input:<br></strong><br>3<br>hulk<br>mounthulk<br>teddy<br>come<br>coder<br>urredoc</p>
+<p><strong>Sample Output:<br></strong><br>YES<br>NO<br>YES</p>
+<p><strong>Explanation:<br></strong><br>hulk is the part of the scrawled text : mounthulk so it prints yes.<br>teddy is not the part of the scrawled text: come so it print no.<br>coder is the part of the scrawled text: urredoc so it print yes.</p>
+      </div>
+
+    </div>
+  </div>
+  <div id="exec-panel" class="col-md-5 col-sm-5 menu-panel" style="display: none;">
+    <div class="row panel panel-default" style="border: none; border-radius: 0px; margin-bottom: 0px;">
+      <div id="exec-close" class="col-md-2 col-sm-2 text-default" style="cursor: pointer; padding-top: 12px; float: right; font-size: 1.5em; text-align: right;">
+        <i class="navbar-icon fa fa-times icon"></i>
+      </div>
+      <div class="panel-heading" style="height: 57px;">
+        <h4 style="font-weight: bold; font-size: 1.2em;">Execution Details
+          <small> </small>
+        </h4>
+      </div>
+      <div id="exec-body" class="panel-body" style="overflow-y: auto; height: 664px;">
+          <div class="submission_result"><div class="alert alert-success">Compilation Successful</div><div class="panel panel-default"><div class="panel-heading">Test Cases</div><div style="font-weight: bold; margin-left: 20px; margin-top: 20px;">Visible Test Cases</div><div class="panel-body"><div class="progress"><div class="progress-bar progress-bar-danger" style="width: 100%;">Fail&nbsp;2/2</div><div class="progress-bar progress-bar-success" style="width: 0%;">Success&nbsp;0/2</div></div></div><table class="table"><thead><tr><th>#</th><th>Input</th><th>Expected O/p</th><th>Actual O/p</th></tr></thead><tbody><tr class="danger"><td>1</td><td class="break-words">3
+<br>hulk
+<br>mounthulk
+<br>teddy
+<br>come
+<br>coder
+<br>urredoc</td><td class="break-words">YES
+<br>NO
+<br>YES</td><td class="break-words">3</td></tr><tr class="danger"><td>2</td><td class="break-words">1
+<br>aaaaaaa
+<br>haiagahafajabaa</td><td class="break-words">NO</td><td class="break-words">1</td></tr></tbody></table><div style="font-weight: bold; margin-left: 20px; margin-top: 20px;">Hidden Test Cases</div><div class="panel-body"><div class="progress"><div class="progress-bar progress-bar-danger" style="width: 100%;">Fail&nbsp;1/1</div><div class="progress-bar progress-bar-success" style="width: 0%;">Success&nbsp;0/1</div></div></div></div></div>
+      </div>
+    </div>
+  </div>
+  <div id="code-panel" class="col-md-6 col-sm-6">
+    <div class="row">
+    <form class="new_submission" id="new_submission" action="https://www.codelitmus.com/submissions" accept-charset="UTF-8" data-remote="true" method="post">
+
+      <div class="field row" style="padding: 4px; margin: 0px; background-color: #333; height: 57px;">
+
+        <div class="btn col-sm-1 col-md-1">
+          <a><i id="expand" class="fa fa-expand fa-lg codemirror_icon" style="color: white;"></i></a>
+        </div>
+
+        <div class="btn codemirror_custom_btn col-sm-1 col-md-1">
+          <a data-toggle="modal" href="https://www.codelitmus.com/events/1179/problems/284#editorCustomModal" title="Editor Settings"><i class="fa fa-cog fa-lg codemirror_icon" style="color: white;"></i></a>
+        </div>
+
+        <div class="btn col-sm-1 col-md-1">
+          <a data-toggle="modal" href="https://www.codelitmus.com/events/1179/problems/284#resetModal" title="Reset Code"><i class="fa fa-history fa-lg text-danger codemirror_icon"></i></a>
+        </div>
+
+        <!-- choosing the language -->
+        <div class="col-sm-4 col-md-4" style="padding: 8px 15px;">
+          <select class="form-control" name="submission[language_id]" id="submission_language_id"><option data-language-mime-type="text/plain" data-language-skeletal-text="{&quot;test.sh&quot;:&quot;echo \&quot;shell\&quot;&quot;}
+" data-language-saved-code="{&quot;test.sh&quot;:&quot;echo \&quot;shell\&quot;&quot;}
+" value="13">Bash 5.0 (bash 5.0)</option>
+<option data-language-mime-type="text/x-csrc" data-language-skeletal-text="{&quot;test.c&quot;: &quot;#include &lt;stdio.h&gt;\n\nint main()\n{\n  printf(\&quot;Hello World!\\n\&quot;);\n  return 0;\n}&quot;}" data-language-saved-code="{&quot;test.c&quot;: &quot;#include &lt;stdio.h&gt;\n\nint main()\n{\n  printf(\&quot;Hello World!\\n\&quot;);\n  return 0;\n}&quot;}" value="1">C 9.1.0 (gcc 9.1.0)</option>
+<option data-language-mime-type="text/x-c++src" data-language-skeletal-text="{&quot;test.cpp&quot;: &quot;#include &lt;iostream&gt;\nusing namespace std;\n\nint main()\n{\n  cout &lt;&lt; \&quot;Hello World!\&quot; &lt;&lt; endl;\n  return 0;\n}&quot;}" data-language-saved-code="{&quot;test.cpp&quot;: &quot;#include &lt;iostream&gt;\nusing namespace std;\n\nint main()\n{\n  cout &lt;&lt; \&quot;Hello World!\&quot; &lt;&lt; endl;\n  return 0;\n}&quot;}" value="2">C++ 14 (gcc 9.1.0)</option>
+<option data-language-mime-type="text/x-csharp" data-language-skeletal-text="{&quot;test.cs&quot;: &quot;using System;\n \npublic class HelloWorld\n{\n    static public void Main ()\n    {\n        Console.WriteLine (\&quot;Hello Mono World\&quot;);\n    }\n}&quot;}" data-language-saved-code="{&quot;test.cs&quot;: &quot;using System;\n \npublic class HelloWorld\n{\n    static public void Main ()\n    {\n        Console.WriteLine (\&quot;Hello Mono World\&quot;);\n    }\n}&quot;}" value="7" selected="selected">Csharp(Mono) 7 (mono mcs 5.20)</option>
+<option data-language-mime-type="text/x-java" data-language-skeletal-text="{&quot;Test.java&quot;: &quot;/* IMPORTANT: class must not be public. */\n\n/*\n * uncomment this if you want to read input.\nimport java.io.BufferedReader;\nimport java.io.InputStreamReader;\n*/\n\nclass Test {\n    public static void main(String args[] ) throws Exception {\n        /*\n         * Read input from stdin and provide input before running\n\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        String line = br.readLine();\n        int N = Integer.parseInt(line);\n        for (int i = 0; i &lt; N; i++) {\n            System.out.println(\&quot;hello world\&quot;);\n        }\n        */\n\n      System.out.println(\&quot;Hello World!\&quot;);\n    }\n}&quot;}" data-language-saved-code="{&quot;Test.java&quot;: &quot;/* IMPORTANT: class must not be public. */\n\n/*\n * uncomment this if you want to read input.\nimport java.io.BufferedReader;\nimport java.io.InputStreamReader;\n*/\n\nclass Test {\n    public static void main(String args[] ) throws Exception {\n        /*\n         * Read input from stdin and provide input before running\n\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        String line = br.readLine();\n        int N = Integer.parseInt(line);\n        for (int i = 0; i &lt; N; i++) {\n            System.out.println(\&quot;hello world\&quot;);\n        }\n        */\n\n      System.out.println(\&quot;Hello World!\&quot;);\n    }\n}&quot;}" value="3">JAVA 11 (javac openjdk 11)</option>
+<option data-language-mime-type="application/x-javascript" data-language-skeletal-text="{&quot;test.js&quot;:&quot;console.log(\&quot;Hello World\&quot;)&quot;}" data-language-saved-code="{&quot;test.js&quot;:&quot;console.log(\&quot;Hello World\&quot;)&quot;}" value="11">Javascript 12 (node 12.0)</option>
+<option data-language-mime-type="application/x-httpd-php" data-language-skeletal-text="{&quot;test.php&quot;:&quot;&lt;?php\n  echo \&quot;Hello World\&quot;\n?&gt;&quot;}" data-language-saved-code="{&quot;test.php&quot;:&quot;&lt;?php\n  echo \&quot;Hello World\&quot;\n?&gt;&quot;}" value="10">PHP 7.3 (php 7.3)</option>
+<option data-language-mime-type="text/x-perl" data-language-skeletal-text="{&quot;test.pl&quot;: &quot;\nprint \&quot;hello world\&quot;&quot;}" data-language-saved-code="{&quot;test.pl&quot;: &quot;\nprint \&quot;hello world\&quot;&quot;}" value="6">Perl 5.30 (perl 5.30)</option>
+<option data-language-mime-type="text/x-python" data-language-skeletal-text="{&quot;test.py&quot;: &quot;\n\nprint \&quot;hello world\&quot;&quot;}" data-language-saved-code="{&quot;test.py&quot;: &quot;\n\nprint \&quot;hello world\&quot;&quot;}" value="5">Python 2.7 (python 2.7)</option>
+<option data-language-mime-type="text/x-python" data-language-skeletal-text="{&quot;test.py&quot;: &quot;\n\nprint (\&quot;hello world\&quot;)&quot;}" data-language-saved-code="{&quot;test.py&quot;: &quot;\n\nprint (\&quot;hello world\&quot;)&quot;}" value="14">Python 3.7 (python 3.7)</option>
+<option data-language-mime-type="text/x-ruby" data-language-skeletal-text="{&quot;test.rb&quot;: &quot;\n\n\nputs \&quot;hello world\&quot;&quot;}" data-language-saved-code="{&quot;test.rb&quot;: &quot;\n\n\nputs \&quot;hello world\&quot;&quot;}" value="4">Ruby 2.6.0 (ruby 2.6.0)</option></select>
+        </div>
+
+        <div id="file-tabs" class="col-sm-2 col-md-2" style="padding: -14px; display: none;"><div title="test.cs" class="col-sm-12 col-md-12 file-tab hide-overflow selected"><span style="z-index: 1; position: relative;">test.cs</span></div></div>
+
+        <div class="btn col-sm-1 col-md-1" style="float: right;">
+          <a data-toggle="modal" href="https://www.codelitmus.com/events/1179/problems/284#helpModal" title="Keys Shortcut ⌘"><i class="fa fa-keyboard-o fa-lg codemirror_icon" style="color: white;"></i></a>
+        </div>
+
+        <div id="file-save" class="col-md-2 col-sm-2" style="float: right; opacity: 0.778057;">
+            Saved
+        </div>
+      </div>
+
+      <div id="coding_editor" class="field row" style="margin: 0px;">
+        <textarea data-ui-options="cut_paste_disabled" name="submission[program_text]" id="submission_program_text" style="display: none;">{"test.c": "#include &lt;stdio.h&gt;\n\nint main()\n{\n  printf(\"Hello World!\\n\");\n  return 0;\n}"}</textarea><div class="CodeMirror cm-s-solarized CodeMirror-wrap CodeMirror-focused" style="height: 606px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 164px; left: 422.838px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 57px; margin-bottom: -17px; border-right-width: 13px; min-height: 228px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 365.838px; top: 160px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">using</span> <span class="cm-variable">System</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">public</span> <span class="cm-keyword">class</span> <span class="cm-def">HelloWorld</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">{</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">static</span> <span class="cm-keyword">public</span> <span class="cm-keyword">void</span> <span class="cm-variable">Main</span> ()</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">7</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-type">int</span> <span class="cm-variable">totalCases</span> <span class="cm-operator">=</span> <span class="cm-type">int</span>.<span class="cm-variable">Parse</span>(<span class="cm-variable">Console</span>.<span class="cm-variable">ReadLine</span>());</span></pre></div><div style="position: relative;" class=""><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">8</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;  <span class="cm-tab" role="presentation" cm-text="	">  </span><span class="cm-type">string</span>[] <span class="cm-variable">pattern</span> <span class="cm-operator">=</span> <span class="cm-keyword">new</span> <span class="cm-type">string</span>[<span class="cm-variable">totalCases</span>];</span></pre></div><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -57px; width: 57px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">9</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;  <span class="cm-tab" role="presentation" cm-text="	">  </span><span class="cm-type">string</span>[] <span class="cm-variable">text</span> <span class="cm-operator">=</span> <span class="cm-keyword">new</span> <span class="cm-type">string</span>[<span class="cm-variable">totalCases</span>];</span></pre></div><div style="position: relative;" class=""><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">10</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -57px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">11</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 13px; width: 1px; border-bottom: 0px solid transparent; top: 228px;"></div><div class="CodeMirror-gutters" style="height: 241px; left: 0px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 31px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div><div class="CodeMirror-gutter CodeMirror-lint-markers"></div></div></div></div>
+      </div>
+
+      <div class="field" style="margin: 0px;">
+        <input type="hidden" value="66097" name="submission[user_event_id]" id="submission_user_event_id">
+        <input value="submit" type="hidden" name="submission[submission_type]" id="submission_submission_type">
+        <input value="284" type="hidden" name="submission[problem_id]" id="submission_problem_id">
+      </div>
+      <div class="field row user_test_case" style="display: none; margin-left: 0px;">
+        <textarea name="user_input" class="user_input" placeholder="Your Input"></textarea>
+        <textarea name="user_output" class="user_output" placeholder="Your Expected Output"></textarea>
+      </div>
+      <div class="actions" style="padding: 12px 15px; margin: 0px; background-color: #333; border-top: 1px solid #444;">
+        <button id="code_run" rel="#exec-panel" style="border-radius: 0px; opacity: 1;" type="button" class="button btn btn-primary compile_submission" data-href="/events/1179"><i class="navbar-icon fa fa-cog fa-lg icon"></i>&nbsp;&nbsp;Compile &amp; Run </button>
+          <!--
+	<button title="You can do multiple submissions" style="border-radius: 0px;" type="button" class="button btn btn-success final_submission" data-href=""><i class="navbar-icon fa fa-upload fa-lg icon"></i>&nbsp;&nbsp;Submit Code </button>
+           -->
+        <button title="Custom Test Case" type="button" style="border-radius: 0px;" class="button btn btn-default show_test_case"> Custom Test Case </button>
+
+        <button id="upload_file_for_editor" style="color: #fff !important" type="button" class="button btn btn-link" data-toggle="modal" data-target="#fileUploadModal"><i class="fa fa-upload"></i> Upload your code as file</button>
+
+        <button id="cursor_position" class="btn disabled codemirror_preference_status">9:47</button>
+        <button id="codemirror_options" class="btn codemirror_preference_status">| sublime | 2 spaces |</button>
+        <button id="language_options" class="btn disabled codemirror_preference_status">
+        </button>
+
+      </div>
+</form>    </div>
+  </div>
+</div>
+<div class="col-md-offset-1 col-sm-offset-1 col-md-2 col-sm-2" id="videoreplay" style="display: none; z-index: 10; position: fixed; bottom: 0px; padding: 0px;">
+  <i id="vid-close" class="navbar-icon fa fa-times-circle icon tab-close" style="position: absolute; right: -3px; top: -10px; z-index: 10000002; color: #fff; text-shadow: 0px 0px 10px #000;"></i>
+  <canvas id="compare" style="display:none"></canvas>
+  <video id="vid" class="col-md-12 col-sm-12" style="background-color: #333; box-shadow: 0px 0px 10px #333; border-top: 2px solid #333; " autoplay="" loop=""></video>
+</div>
+<button id="openFileUploadModal" style="display: none" type="button">Launch modal</button>
+<div id="fileUploadModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Upload Dialog</h4>
+        <div width="w-100"></div>
+        <h6 class="modal-subtitle text-danger" style="margin: 0;">Uploading a file will replace the current content in your code editor.</h6>
+      </div>
+      <div class="modal-body">
+        <form id="uploadFileFormat">
+          <div class="row">
+            <div class="form-group">
+              <label class="control-label col-sm-3" for="upload_file_for_editor_input">Source File</label>
+              <div class="col-sm-9">
+                <input type="file" id="upload_file_for_editor_input" accept="text/plain,text/x-csrc,text/x-c++src,text/x-csharp,text/x-java,application/x-javascript,application/x-httpd-php,text/x-perl,text/x-python,text/x-python,text/x-ruby" style="display:none">
+                <div class="input-group">
+                  <input type="text" id="choose_file_dummy_view_upload_file" style="cursor: pointer;" class="form-control" placeholder="Choose a file..." readonly="">
+                  <span class="input-group-btn">
+                  <button id="select_upload_file" class="btn btn-default" type="button"> Select File </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>      
+          <div class="row">
+            <div class="form-group">
+              <label class="control-label col-sm-3" for="language_select">Language</label>
+              <div class="col-sm-9">
+                <select name="language_select" id="language_select" class="form-control"><option data-language-mime-type="text/plain" data-language-skeletal-text="{&amp;quot;test.sh&amp;quot;:&amp;quot;echo \&amp;quot;shell\&amp;quot;&amp;quot;}
+" data-language-saved-code="{&amp;quot;test.sh&amp;quot;:&amp;quot;echo \&amp;quot;shell\&amp;quot;&amp;quot;}
+" value="13">Bash 5.0 (bash 5.0)</option>
+<option data-language-mime-type="text/x-csrc" data-language-skeletal-text="{&amp;quot;test.c&amp;quot;: &amp;quot;#include &lt;stdio.h&gt;\n\nint main()\n{\n  printf(\&amp;quot;Hello World!\\n\&amp;quot;);\n  return 0;\n}&amp;quot;}" data-language-saved-code="{&amp;quot;test.c&amp;quot;: &amp;quot;#include &lt;stdio.h&gt;\n\nint main()\n{\n  printf(\&amp;quot;Hello World!\\n\&amp;quot;);\n  return 0;\n}&amp;quot;}" value="1">C 9.1.0 (gcc 9.1.0)</option>
+<option data-language-mime-type="text/x-c++src" data-language-skeletal-text="{&amp;quot;test.cpp&amp;quot;: &amp;quot;#include &lt;iostream&gt;\nusing namespace std;\n\nint main()\n{\n  cout &lt;&lt; \&amp;quot;Hello World!\&amp;quot; &lt;&lt; endl;\n  return 0;\n}&amp;quot;}" data-language-saved-code="{&amp;quot;test.cpp&amp;quot;: &amp;quot;#include &lt;iostream&gt;\nusing namespace std;\n\nint main()\n{\n  cout &lt;&lt; \&amp;quot;Hello World!\&amp;quot; &lt;&lt; endl;\n  return 0;\n}&amp;quot;}" value="2">C++ 14 (gcc 9.1.0)</option>
+<option data-language-mime-type="text/x-csharp" data-language-skeletal-text="{&amp;quot;test.cs&amp;quot;: &amp;quot;using System;\n \npublic class HelloWorld\n{\n    static public void Main ()\n    {\n        Console.WriteLine (\&amp;quot;Hello Mono World\&amp;quot;);\n    }\n}&amp;quot;}" data-language-saved-code="{&amp;quot;test.cs&amp;quot;: &amp;quot;using System;\n \npublic class HelloWorld\n{\n    static public void Main ()\n    {\n        Console.WriteLine (\&amp;quot;Hello Mono World\&amp;quot;);\n    }\n}&amp;quot;}" value="7">Csharp(Mono) 7 (mono mcs 5.20)</option>
+<option data-language-mime-type="text/x-java" data-language-skeletal-text="{&amp;quot;Test.java&amp;quot;: &amp;quot;/* IMPORTANT: class must not be public. */\n\n/*\n * uncomment this if you want to read input.\nimport java.io.BufferedReader;\nimport java.io.InputStreamReader;\n*/\n\nclass Test {\n    public static void main(String args[] ) throws Exception {\n        /*\n         * Read input from stdin and provide input before running\n\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        String line = br.readLine();\n        int N = Integer.parseInt(line);\n        for (int i = 0; i &lt; N; i++) {\n            System.out.println(\&amp;quot;hello world\&amp;quot;);\n        }\n        */\n\n      System.out.println(\&amp;quot;Hello World!\&amp;quot;);\n    }\n}&amp;quot;}" data-language-saved-code="{&amp;quot;Test.java&amp;quot;: &amp;quot;/* IMPORTANT: class must not be public. */\n\n/*\n * uncomment this if you want to read input.\nimport java.io.BufferedReader;\nimport java.io.InputStreamReader;\n*/\n\nclass Test {\n    public static void main(String args[] ) throws Exception {\n        /*\n         * Read input from stdin and provide input before running\n\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        String line = br.readLine();\n        int N = Integer.parseInt(line);\n        for (int i = 0; i &lt; N; i++) {\n            System.out.println(\&amp;quot;hello world\&amp;quot;);\n        }\n        */\n\n      System.out.println(\&amp;quot;Hello World!\&amp;quot;);\n    }\n}&amp;quot;}" value="3">JAVA 11 (javac openjdk 11)</option>
+<option data-language-mime-type="application/x-javascript" data-language-skeletal-text="{&amp;quot;test.js&amp;quot;:&amp;quot;console.log(\&amp;quot;Hello World\&amp;quot;)&amp;quot;}" data-language-saved-code="{&amp;quot;test.js&amp;quot;:&amp;quot;console.log(\&amp;quot;Hello World\&amp;quot;)&amp;quot;}" value="11">Javascript 12 (node 12.0)</option>
+<option data-language-mime-type="application/x-httpd-php" data-language-skeletal-text="{&amp;quot;test.php&amp;quot;:&amp;quot;&lt;?php\n  echo \&amp;quot;Hello World\&amp;quot;\n?&gt;&amp;quot;}" data-language-saved-code="{&amp;quot;test.php&amp;quot;:&amp;quot;&lt;?php\n  echo \&amp;quot;Hello World\&amp;quot;\n?&gt;&amp;quot;}" value="10">PHP 7.3 (php 7.3)</option>
+<option data-language-mime-type="text/x-perl" data-language-skeletal-text="{&amp;quot;test.pl&amp;quot;: &amp;quot;\nprint \&amp;quot;hello world\&amp;quot;&amp;quot;}" data-language-saved-code="{&amp;quot;test.pl&amp;quot;: &amp;quot;\nprint \&amp;quot;hello world\&amp;quot;&amp;quot;}" value="6">Perl 5.30 (perl 5.30)</option>
+<option data-language-mime-type="text/x-python" data-language-skeletal-text="{&amp;quot;test.py&amp;quot;: &amp;quot;\n\nprint \&amp;quot;hello world\&amp;quot;&amp;quot;}" data-language-saved-code="{&amp;quot;test.py&amp;quot;: &amp;quot;\n\nprint \&amp;quot;hello world\&amp;quot;&amp;quot;}" value="5">Python 2.7 (python 2.7)</option>
+<option data-language-mime-type="text/x-python" data-language-skeletal-text="{&amp;quot;test.py&amp;quot;: &amp;quot;\n\nprint (\&amp;quot;hello world\&amp;quot;)&amp;quot;}" data-language-saved-code="{&amp;quot;test.py&amp;quot;: &amp;quot;\n\nprint (\&amp;quot;hello world\&amp;quot;)&amp;quot;}" value="14">Python 3.7 (python 3.7)</option>
+<option data-language-mime-type="text/x-ruby" data-language-skeletal-text="{&amp;quot;test.rb&amp;quot;: &amp;quot;\n\n\nputs \&amp;quot;hello world\&amp;quot;&amp;quot;}" data-language-saved-code="{&amp;quot;test.rb&amp;quot;: &amp;quot;\n\n\nputs \&amp;quot;hello world\&amp;quot;&amp;quot;}" value="4">Ruby 2.6.0 (ruby 2.6.0)</option></select>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-sm-12 text-right">
+              <button type="button" id="upload_file_submit" class="btn btn-primary">Upload</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="helpModal" role="dialog">
+  <div class="modal-dialog modal-md helpModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title">Find key shortcuts for the editor</h4>
+      </div>
+
+      <div class="modal-body">
+        <div class="input-group">
+          <input type="text" id="search_commands" class="form-control" placeholder="Search command..">
+          <span id="extend_search" class="input-group-addon" style="cursor: pointer;">
+            <span id="extend_search_text">More Results&nbsp;&nbsp;</span><span id="extend_search_icon" class="fa fa-chevron-up icon"></span>
+          </span>
+        </div>
+        <table id="commands_table" class="table dialog-table" cols="5" border="0">
+          <thead>
+            <tr>
+              <th colspan="2">KeyShortcut</th>
+              <th colspan="3">Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <th colspan="5">Basic Commands</th>
+              </tr>
+                <tr class="commands_row  important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;help&quot;,&quot;mac&quot;:&quot;^⇧H&quot;,&quot;usage&quot;:&quot;find shortcuts for the editor&quot;,&quot;pc&quot;:&quot;^⇧H&quot;}">^⇧H</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Help | Find shortcuts for the editor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;selectAll&quot;,&quot;mac&quot;:&quot;⌘A&quot;,&quot;usage&quot;:&quot;Select the whole content&quot;,&quot;pc&quot;:&quot;⌃A&quot;}">⌃A</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SelectAll | Select the whole content
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;singleSelection&quot;,&quot;mac&quot;:&quot;Esc&quot;,&quot;usage&quot;:&quot;this deselects multiple selection except the primary one&quot;,&quot;pc&quot;:&quot;Esc&quot;}">Esc</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SingleSelection | This deselects multiple selection except the primary one
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;deleteLine&quot;,&quot;mac&quot;:&quot;⌘D&quot;,&quot;usage&quot;:&quot;Deletes/Removes the line under the cursor&quot;,&quot;pc&quot;:&quot;⌃D&quot;}">⌃D</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DeleteLine | Deletes/Removes the line under the cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;redo&quot;,&quot;mac&quot;:&quot;⌘Y&quot;,&quot;usage&quot;:&quot;Redo the last undone change&quot;,&quot;pc&quot;:&quot;⌃Y&quot;}">⌃Y</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Redo | Redo the last undone change
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goDocStart&quot;,&quot;mac&quot;:&quot;⌘Up&quot;,&quot;usage&quot;:&quot;Move the cursor to the start/beginning of the document&quot;,&quot;pc&quot;:&quot;⌃Home&quot;}">⌃Home</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoDocStart | Move the cursor to the start/beginning of the document
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goDocEnd&quot;,&quot;mac&quot;:&quot;⌘Down&quot;,&quot;usage&quot;:&quot;Move the cursor to the end of the document&quot;,&quot;pc&quot;:&quot;⌃End&quot;}">⌃End</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoDocEnd | Move the cursor to the end of the document
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;goLineStart&quot;,&quot;mac&quot;:&quot;⌃A&quot;,&quot;usage&quot;:&quot;Move the cursor to the start of the line&quot;,&quot;pc&quot;:&quot;⌥Left&quot;}">⌥Left</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoLineStart | Move the cursor to the start of the line
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goLineStart&quot;,&quot;mac&quot;:&quot;Home&quot;,&quot;usage&quot;:&quot;Move to the start of the text on the line&quot;,&quot;pc&quot;:&quot;Home&quot;}">Home</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoLineStart | Move to the start of the text on the line
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;goLineEnd&quot;,&quot;mac&quot;:&quot;⌥⌃E&quot;,&quot;usage&quot;:&quot;Move the cursor to the end of the line&quot;,&quot;pc&quot;:&quot;⌥Right&quot;}">⌥Right</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoLineEnd | Move the cursor to the end of the line
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goLineRight&quot;,&quot;mac&quot;:&quot;⌘Right&quot;,&quot;usage&quot;:&quot;Move the cursor to the right side of the visual line it is on&quot;,&quot;pc&quot;:&quot;⌘Right&quot;}">⌘Right</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoLineRight | Move the cursor to the right side of the visual line it is on
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goLineUp&quot;,&quot;mac&quot;:&quot;Up&quot;,&quot;usage&quot;:&quot;Move the cursor up one line&quot;,&quot;pc&quot;:&quot;Up&quot;}">Up</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoLineUp | Move the cursor up one line
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goLineDown&quot;,&quot;mac&quot;:&quot;Down&quot;,&quot;usage&quot;:&quot;Move down one line&quot;,&quot;pc&quot;:&quot;Down&quot;}">Down</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoLineDown | Move down one line
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goPageUp&quot;,&quot;mac&quot;:&quot;⇧⌃V&quot;,&quot;usage&quot;:&quot;Move the cursor up one screen&quot;,&quot;pc&quot;:&quot;PageUp&quot;}">PageUp</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoPageUp | Move the cursor up one screen
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goPageDown&quot;,&quot;mac&quot;:&quot;⌃V&quot;,&quot;usage&quot;:&quot;Move the cursor down one screen&quot;,&quot;pc&quot;:&quot;PageDown&quot;}">PageDown</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoPageDown | Move the cursor down one screen
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goCharLeft&quot;,&quot;mac&quot;:&quot;⌃B&quot;,&quot;usage&quot;:&quot;Move the cursor one character left&quot;,&quot;pc&quot;:&quot;Left&quot;}">Left</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoCharLeft | Move the cursor one character left
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goCharRight&quot;,&quot;mac&quot;:&quot;⌃F&quot;,&quot;usage&quot;:&quot;Move the cursor one character right&quot;,&quot;pc&quot;:&quot;Right&quot;}">Right</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoCharRight | Move the cursor one character right
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goWordLeft&quot;,&quot;mac&quot;:&quot;⌥B&quot;,&quot;usage&quot;:&quot;Move the cursor to the start of the previous word&quot;,&quot;pc&quot;:&quot;⌥B&quot;}">⌥B</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoWordLeft | Move the cursor to the start of the previous word
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goWordRight&quot;,&quot;mac&quot;:&quot;⌥F&quot;,&quot;usage&quot;:&quot;Move the cursor to the end of the next word&quot;,&quot;pc&quot;:&quot;⌥F&quot;}">⌥F</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoWordRight | Move the cursor to the end of the next word
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goGroupLeft&quot;,&quot;mac&quot;:&quot;⌥Left&quot;,&quot;usage&quot;:&quot;Move to the left of the group before the cursor&quot;,&quot;pc&quot;:&quot;⌃Left&quot;}">⌃Left</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoGroupLeft | Move to the left of the group before the cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goGroupRight&quot;,&quot;mac&quot;:&quot;⌥Right&quot;,&quot;usage&quot;:&quot;Move to the right of the group after the cursor&quot;,&quot;pc&quot;:&quot;⌃Right&quot;}">⌃Right</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoGroupRight | Move to the right of the group after the cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;delCharBefore&quot;,&quot;mac&quot;:&quot;⇧⌫&quot;,&quot;usage&quot;:&quot;Delete the character before the cursor&quot;,&quot;pc&quot;:&quot;⇧⌫&quot;}">⇧⌫</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DelCharBefore | Delete the character before the cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;delCharAfter&quot;,&quot;mac&quot;:&quot;⌃D&quot;,&quot;usage&quot;:&quot;Delete/Remove the character after the cursor&quot;,&quot;pc&quot;:&quot;⌃D&quot;}">⌃D</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DelCharAfter | Delete/Remove the character after the cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;delWordBefore&quot;,&quot;mac&quot;:&quot;⌥⌫&quot;,&quot;usage&quot;:&quot;Delete up to the start of the word before the cursor or the first whitespace&quot;,&quot;pc&quot;:&quot;⌥⌫&quot;}">⌥⌫</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DelWordBefore | Delete up to the start of the word before the cursor or the first whitespace
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;delWordAfter&quot;,&quot;mac&quot;:&quot;⌥D&quot;,&quot;usage&quot;:&quot;Delete up to the end of the word after the cursor&quot;,&quot;pc&quot;:&quot;⌥D&quot;}">⌥D</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DelWordAfter | Delete up to the end of the word after the cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;delGroupBefore&quot;,&quot;mac&quot;:&quot;⌥⌫&quot;,&quot;usage&quot;:&quot;Delete to the left of the group before the cursor&quot;,&quot;pc&quot;:&quot;⌃⌫&quot;}">⌃⌫</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DelGroupBefore | Delete to the left of the group before the cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;delGroupAfter&quot;,&quot;mac&quot;:&quot;⌥Delete&quot;,&quot;usage&quot;:&quot;Delete to the start of the group after the cursor&quot;,&quot;pc&quot;:&quot;⌃Delete&quot;}">⌃Delete</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DelGroupAfter | Delete to the start of the group after the cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;indentAuto&quot;,&quot;mac&quot;:&quot;⇧Tab&quot;,&quot;usage&quot;:&quot;Autoindent the current line or selection&quot;,&quot;pc&quot;:&quot;⇧Tab&quot;}">⇧Tab</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    IndentAuto | Autoindent the current line or selection
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;transposeChars&quot;,&quot;mac&quot;:&quot;⌃T&quot;,&quot;usage&quot;:&quot;Swap the characters before and after the cursor&quot;,&quot;pc&quot;:&quot;⌃T&quot;}">⌃T</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    TransposeChars | Swap the characters before and after the cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;newlineAndIndent&quot;,&quot;mac&quot;:&quot;Enter&quot;,&quot;usage&quot;:&quot;Insert a newline and autoindent the new line&quot;,&quot;pc&quot;:&quot;Enter&quot;}">Enter</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    NewlineAndIndent | Insert a newline and autoindent the new line
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;toggleOverwrite&quot;,&quot;mac&quot;:&quot;Insert&quot;,&quot;usage&quot;:&quot;Flip the overwrite flag&quot;,&quot;pc&quot;:&quot;Insert&quot;}">Insert</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ToggleOverwrite | Flip the overwrite flag
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;save&quot;,&quot;mac&quot;:&quot;⌘S&quot;,&quot;usage&quot;:&quot;&quot;,&quot;pc&quot;:&quot;⌃S&quot;}">⌃S</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Save
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;indentMore&quot;,&quot;mac&quot;:&quot;⌘]&quot;,&quot;usage&quot;:&quot;Indent the current line or selection by one indent unit&quot;,&quot;pc&quot;:&quot;⌃]&quot;}">⌃]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    IndentMore | Indent the current line or selection by one indent unit
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_basic">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;indentLess&quot;,&quot;mac&quot;:&quot;⌘[&quot;,&quot;usage&quot;:&quot;Dedent the current line or selection by one indent unit&quot;,&quot;pc&quot;:&quot;⌃[&quot;}">⌃[</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    IndentLess | Dedent the current line or selection by one indent unit
+                  </td>
+                </tr>
+              <tr>
+                <th colspan="5">Sublime Commands</th>
+              </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;replaceAll&quot;,&quot;mac&quot;:&quot;⇧⌘⌥F&quot;,&quot;pc&quot;:&quot;⇧⌃R&quot;}">⇧⌃R</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ReplaceAll
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goLineStartSmart&quot;,&quot;mac&quot;:&quot;⌘Left&quot;}"></keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoLineStartSmart
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;indentLess&quot;,&quot;mac&quot;:&quot;⇧Tab&quot;,&quot;pc&quot;:&quot;⇧Tab&quot;}">⇧Tab</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    IndentLess
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;deleteLine&quot;,&quot;mac&quot;:&quot;⇧⌃K&quot;,&quot;pc&quot;:&quot;⇧⌃K&quot;}">⇧⌃K</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DeleteLine
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;wrapLines&quot;,&quot;mac&quot;:&quot;⌥Q&quot;,&quot;pc&quot;:&quot;⌥Q&quot;}">⌥Q</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    WrapLines
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goSubwordLeft&quot;,&quot;mac&quot;:&quot;⌃Left&quot;,&quot;pc&quot;:&quot;⌥Left&quot;}">⌥Left</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoSubwordLeft
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;goSubwordRight&quot;,&quot;mac&quot;:&quot;⌃Right&quot;,&quot;pc&quot;:&quot;⌥Right&quot;}">⌥Right</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoSubwordRight
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;scrollLineUp&quot;,&quot;mac&quot;:&quot;⌃⌥Up&quot;,&quot;pc&quot;:&quot;⌃Up&quot;}">⌃Up</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ScrollLineUp
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;scrollLineDown&quot;,&quot;mac&quot;:&quot;⌃⌥Down&quot;,&quot;pc&quot;:&quot;⌃Down&quot;}">⌃Down</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ScrollLineDown
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;selectLine&quot;,&quot;mac&quot;:&quot;⌘L&quot;,&quot;pc&quot;:&quot;⌃L&quot;}">⌃L</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SelectLine
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;splitSelectionByLine&quot;,&quot;mac&quot;:&quot;⇧⌘L&quot;,&quot;pc&quot;:&quot;⇧⌃L&quot;}">⇧⌃L</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SplitSelectionByLine
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;singleSelectionTop&quot;,&quot;mac&quot;:&quot;Esc&quot;,&quot;pc&quot;:&quot;Esc&quot;}">Esc</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SingleSelectionTop
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;insertLineAfter&quot;,&quot;mac&quot;:&quot;⌘Enter&quot;,&quot;pc&quot;:&quot;⌃Enter&quot;}">⌃Enter</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    InsertLineAfter
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;insertLineBefore&quot;,&quot;mac&quot;:&quot;⇧⌘Enter&quot;,&quot;pc&quot;:&quot;⇧⌃Enter&quot;}">⇧⌃Enter</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    InsertLineBefore
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;selectNextOccurrence&quot;,&quot;mac&quot;:&quot;⌘D&quot;,&quot;pc&quot;:&quot;⌃D&quot;}">⌃D</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SelectNextOccurrence
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;addCursorToPrevLine&quot;,&quot;mac&quot;:&quot;⇧⌘Up&quot;,&quot;pc&quot;:&quot;⌥⌃Up&quot;}">⌥⌃Up</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    AddCursorToPrevLine
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;addCursorToNextLine&quot;,&quot;mac&quot;:&quot;⇧⌘Down&quot;,&quot;pc&quot;:&quot;⌥⌃Down&quot;}">⌥⌃Down</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    AddCursorToNextLine
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;selectScope&quot;,&quot;mac&quot;:&quot;⇧⌘Space&quot;,&quot;pc&quot;:&quot;⇧⌃Space&quot;}">⇧⌃Space</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SelectScope
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;selectBetweenBrackets&quot;,&quot;mac&quot;:&quot;⇧⌘M&quot;,&quot;pc&quot;:&quot;⇧⌃M&quot;}">⇧⌃M</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SelectBetweenBrackets
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;goToBracket&quot;,&quot;mac&quot;:&quot;⌘M&quot;,&quot;pc&quot;:&quot;⌃M&quot;}">⌃M</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoToBracket
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;swapLineUp&quot;,&quot;mac&quot;:&quot;⌘⌃Up&quot;,&quot;pc&quot;:&quot;⇧⌃Up&quot;}">⇧⌃Up</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SwapLineUp
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;swapLineDown&quot;,&quot;mac&quot;:&quot;⌘⌃Down&quot;,&quot;pc&quot;:&quot;⇧⌃Down&quot;}">⇧⌃Down</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SwapLineDown
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;toggleCommentIndented&quot;,&quot;mac&quot;:&quot;⌘/&quot;,&quot;pc&quot;:&quot;⌃/&quot;}">⌃/</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ToggleCommentIndented
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;joinLines&quot;,&quot;mac&quot;:&quot;⌘J&quot;,&quot;pc&quot;:&quot;⌃J&quot;}">⌃J</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    JoinLines
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;duplicateLine&quot;,&quot;mac&quot;:&quot;⇧⌘D&quot;,&quot;pc&quot;:&quot;⇧⌃D&quot;}">⇧⌃D</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DuplicateLine
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;sortLines&quot;,&quot;mac&quot;:&quot;F9&quot;,&quot;pc&quot;:&quot;F9&quot;}">F9</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SortLines
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;sortLinesInsensitive&quot;,&quot;mac&quot;:&quot;⌘F9&quot;,&quot;pc&quot;:&quot;⌃F9&quot;}">⌃F9</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SortLinesInsensitive
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;nextBookmark&quot;,&quot;mac&quot;:&quot;F2&quot;,&quot;pc&quot;:&quot;F2&quot;}">F2</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    NextBookmark
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;prevBookmark&quot;,&quot;mac&quot;:&quot;⇧F2&quot;,&quot;pc&quot;:&quot;⇧F2&quot;}">⇧F2</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    PrevBookmark
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;toggleBookmark&quot;,&quot;mac&quot;:&quot;⌘F2&quot;,&quot;pc&quot;:&quot;⌃F2&quot;}">⌃F2</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ToggleBookmark
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;clearBookmarks&quot;,&quot;mac&quot;:&quot;⌘K ⌘G&quot;,&quot;pc&quot;:&quot;⌃K ⌃G&quot;}">⌃K ⌃G</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ClearBookmarks
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;selectBookmarks&quot;,&quot;mac&quot;:&quot;⌥F2&quot;,&quot;pc&quot;:&quot;⌥F2&quot;}">⌥F2</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SelectBookmarks
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;smartBackspace&quot;,&quot;mac&quot;:&quot;⌫&quot;,&quot;pc&quot;:&quot;⌫&quot;}">⌫</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SmartBackspace
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;delLineRight&quot;,&quot;mac&quot;:&quot;⌘K ⌘K&quot;,&quot;pc&quot;:&quot;⌃K ⌃K&quot;}">⌃K ⌃K</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DelLineRight
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;upcaseAtCursor&quot;,&quot;mac&quot;:&quot;⌘K ⌘U&quot;,&quot;pc&quot;:&quot;⌃K ⌃U&quot;}">⌃K ⌃U</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    UpcaseAtCursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;downcaseAtCursor&quot;,&quot;mac&quot;:&quot;⌘K ⌘L&quot;,&quot;pc&quot;:&quot;⌃K ⌃L&quot;}">⌃K ⌃L</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DowncaseAtCursor
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;setSublimeMark&quot;,&quot;mac&quot;:&quot;⌘K ⌘Space&quot;,&quot;pc&quot;:&quot;⌃K ⌃Space&quot;}">⌃K ⌃Space</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SetSublimeMark
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;selectToSublimeMark&quot;,&quot;mac&quot;:&quot;⌘K ⌘A&quot;,&quot;pc&quot;:&quot;⌃K ⌃A&quot;}">⌃K ⌃A</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SelectToSublimeMark
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;deleteToSublimeMark&quot;,&quot;mac&quot;:&quot;⌘K ⌘W&quot;,&quot;pc&quot;:&quot;⌃K ⌃W&quot;}">⌃K ⌃W</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DeleteToSublimeMark
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;sublimeYank&quot;,&quot;mac&quot;:&quot;⌘K ⌘Y&quot;,&quot;pc&quot;:&quot;⌃K ⌃Y&quot;}">⌃K ⌃Y</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SublimeYank
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;showInCenter&quot;,&quot;mac&quot;:&quot;⌘K ⌘C&quot;,&quot;pc&quot;:&quot;⌃K ⌃C&quot;}">⌃K ⌃C</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ShowInCenter
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;delLineLeft&quot;,&quot;mac&quot;:&quot;⌘K ⌘⌫&quot;,&quot;pc&quot;:&quot;⌃K ⌃⌫&quot;}">⌃K ⌃⌫</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DelLineLeft
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;unfoldAll&quot;,&quot;mac&quot;:&quot;⌘K ⌘J&quot;,&quot;pc&quot;:&quot;⌃K ⌃J&quot;}">⌃K ⌃J</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    UnfoldAll
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;selectLinesUpward&quot;,&quot;mac&quot;:&quot;⌃⇧Up&quot;,&quot;pc&quot;:&quot;⌃⌥Up&quot;}">⌃⌥Up</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SelectLinesUpward
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;selectLinesDownward&quot;,&quot;mac&quot;:&quot;⌃⇧Down&quot;,&quot;pc&quot;:&quot;⌃⌥Down&quot;}">⌃⌥Down</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SelectLinesDownward
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;findUnder&quot;,&quot;mac&quot;:&quot;⌘F3&quot;,&quot;pc&quot;:&quot;⌃F3&quot;}">⌃F3</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    FindUnder
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;findUnderPrevious&quot;,&quot;mac&quot;:&quot;⇧⌘F3&quot;,&quot;pc&quot;:&quot;⇧⌃F3&quot;}">⇧⌃F3</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    FindUnderPrevious
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;findAllUnder&quot;,&quot;mac&quot;:&quot;⌥F3&quot;,&quot;pc&quot;:&quot;⌥F3&quot;}">⌥F3</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    FindAllUnder
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;fold&quot;,&quot;mac&quot;:&quot;⇧⌘[&quot;,&quot;pc&quot;:&quot;⇧⌃[&quot;}">⇧⌃[</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Fold
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;unfold&quot;,&quot;mac&quot;:&quot;⇧⌘]&quot;,&quot;pc&quot;:&quot;⇧⌃]&quot;}">⇧⌃]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Unfold
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;findIncremental&quot;,&quot;mac&quot;:&quot;⌘I&quot;,&quot;pc&quot;:&quot;⌃I&quot;}">⌃I</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    FindIncremental
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;findIncrementalReverse&quot;,&quot;mac&quot;:&quot;⇧⌘I&quot;,&quot;pc&quot;:&quot;⇧⌃I&quot;}">⇧⌃I</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    FindIncrementalReverse
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;replace&quot;,&quot;mac&quot;:&quot;⌘H&quot;,&quot;pc&quot;:&quot;⌃H&quot;}">⌃H</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Replace
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;find&quot;,&quot;mac&quot;:&quot;⌘F&quot;,&quot;pc&quot;:&quot;⌃F&quot;,&quot;usage&quot;:&quot;find/search&quot;}">⌃F</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Find | Find/search
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:true,&quot;function&quot;:&quot;findNext&quot;,&quot;mac&quot;:&quot;F3&quot;,&quot;pc&quot;:&quot;F3&quot;,&quot;usage&quot;:&quot;find/search next occurance&quot;}">F3</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    FindNext | Find/search next occurance
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;findPrev&quot;,&quot;mac&quot;:&quot;⇧F3&quot;,&quot;pc&quot;:&quot;⇧F3&quot;,&quot;usage&quot;:&quot;find/search previous occurance&quot;}">⇧F3</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    FindPrev | Find/search previous occurance
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_sublime">
+                  <td colspan="2" class="commands_cell">
+                        <keybd class="keybd" data-current-os="{&quot;important&quot;:false,&quot;function&quot;:&quot;transposeChars&quot;,&quot;pc&quot;:&quot;⌃T&quot;,&quot;mac&quot;:&quot;^T&quot;,&quot;usage&quot;:&quot;swap next character&quot;}">⌃T</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    TransposeChars | Swap next character
+                  </td>
+                </tr>
+              <tr>
+                <th colspan="5">Vim Commands</th>
+              </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>yy</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    CopyLine
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>yw</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    CopyWord
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>P</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Paste
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃O ⌃I</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    JumpHistory | Move backward/forward through the jump history
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>#*</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    NextOccurrence | Find next occurance of the token under cursor
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>Ins</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ToggleOverwrite | Insert
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>H M L</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move to the top/middle/bottom of the screen
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>_</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveByLines | Forward true, toFirstChar true, repeatOffset:-1
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>gk</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveByDisplayLines | Forward false
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>W</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveByWords | Forward false, wordEnd false, context insert
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>}</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveByParagraph | Forward true, toJumplist true
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>[C-b]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveByPage | Forward false
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>[C-u]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveByScroll | Forward false, explicitRepeat true
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>G ⇧G</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveToLineOrEdgeOfDocument
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>0</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveToStartOfLine
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>^</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveToFirstNonWhiteSpaceCharacter
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>%</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveToMatchedSymbol | Inclusive true, toJumplist true
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>F[char]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveToCharacter | Forward false
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>T[char]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveTillCharacter | Forward false
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>`[char]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    GoToMark
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>[\</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    JumpToMark | Forward false, linewise true
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>[[char]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveToSymbol | Forward false, toJumplist true}
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>[Number]|</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveToColumn | 32| will jump you to column 32 of current line
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>O</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    MoveToOtherHighlightedEnd | SameLine true, context visual
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>D</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Delete | Remove or delete
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>Y</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Yank
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>C</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Change
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>[C-d]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Indent | Indent indentRight false, context insert
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>N</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    FindNext | Find/search next
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>Y</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ExpandToLine
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>[C-o]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    JumpListWalk | Forward false
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>[C-y]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Scroll
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>R</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    EnterInsertMode
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>O</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    NewLineAndEnterInsertMode
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>[C-q]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ToggleVisualMode | Blockwise true
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>gv</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ReselectLastSelection
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>J</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    JoinLines | IsEdit true
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>r[char]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Replace
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>U</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Undo
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃R</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Redo
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>m[char]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SetMark
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>\[char]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    SetRegister
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>zb</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ScrollToCursor | ScrollToCursor position bottom,  move to first non white space character
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>.</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    RepeatLastEdit
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>i[char]</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    TextObjectManipulation | TextObjectInner true
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_vim">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>?</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Search | Find/search
+                  </td>
+                </tr>
+              <tr>
+                <th colspan="5">Emacs Commands</th>
+              </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃W</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Delete | Delete from start cursor to end cursor position
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃K</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DeleteLine | Delete current line
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃F</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move by char 1 forward
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃B</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move by char 1 backward
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃H</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Delete | Delete previous char
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥F</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move by word forward
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥B</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move by word backward
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥D</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DeleteWord | Delete from cursor to next word
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥⌫</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DeleteWord | Delete from cursor to previous word
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃N</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move cursor to nextLine
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃P</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move cursor to previousLine
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃A</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Goto | Goto line start
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃E</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Goto | Goto line end
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>Home</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Goto | Goto line start
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>End</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Goto | Goto line end
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥V</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move page up
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃V</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move to next page
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥K</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DeleteSentence | Delete from cursor to next sentence
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃⌥K</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    DeleteExpr | Delete from cursor to next expr
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃⌥⌫</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Delete | Delete from cursor to pre expr
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃⌥F</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move to next expr
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃⌥B</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Move | Move to previous expr
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⇧⌃⌥2</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Select | Select from cursor to end of Expr
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃⌥T</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Replace | Replace range of expr
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃⌥U</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Goto | Goto enclosing expr
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥Space</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Space | To enter just one space
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃O</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    NewLine | Adding new line
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌃T</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Transpose | Transpose consecutive chars
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥C</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ToUpper | First char of words to upper case
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥L</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    ToLower | To lower case
+                  </td>
+                </tr>
+                <tr class="commands_row  important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>⌥/</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Autocomplete | Autocomplete
+                  </td>
+                </tr>
+                <tr class="commands_row  less_important_command commands_emacs">
+                  <td colspan="2" class="commands_cell">
+                        <keybd>Tab</keybd>
+                  </td>
+                  <td class="break-words commands_cell" colspan="3">
+                    Indent | IndentAuto
+                  </td>
+                </tr>
+            <tr>
+              <td id="command_not_found" style="display: none;" colspan="5">Sorry, keyword you searched not found, try alternate synonym!</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="modal-footer">
+        <h9>^Ctrl  ⌘Cmd  ⇧Shift  ⌥Alt  ⌫Backspace</h9>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="resetModal" role="dialog">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">Reset Code</h4>
+      </div>
+
+      <div class="modal-body">
+        Are you sure?, this action will delete all your previously edited code for this problem.
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal" id="resetConfirmButton">Confirm</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div id="editorCustomModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-md">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Preferences</h4>
+        <div width="w-100"></div>
+        <h6 class="modal-subtitle" style="margin: 0;">Configure your editor with following preferences and save.</h6>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="btn-group bootstrap-select custom_editor _editor show-tick" style="width: 100%;"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="sublime"><span class="filter-option pull-left">sublime</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open"><ul class="dropdown-menu inner" role="menu"><li data-original-index="0"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">vim</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="1"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">emacs</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="2" class="selected"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">sublime</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select class="custom_editor selectpicker_editor show-tick" data-width="100%" tabindex="-98">
+                  <option>vim</option>
+                  <option>emacs</option>
+                  <option selected="">sublime</option>
+            </select></div>
+          </div>
+          <div class="col-sm-4">
+            <div class="btn-group bootstrap-select custom_editor _theme show-tick" style="width: 100%;"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="solarized"><span class="filter-option pull-left">solarized</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open"><ul class="dropdown-menu inner" role="menu"><li data-original-index="0"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">base16-light</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="1" class="selected"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">solarized</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="2"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">icecoder</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="3"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">railscasts</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="4"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">zenburn</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="5"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">hopscotch</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="6"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">material</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="7"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">cobalt</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="8"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">eclipse</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="9"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">mdn-like</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select class="custom_editor selectpicker_theme show-tick" data-width="100%" tabindex="-98">
+                  <option>base16-light</option>
+                  <option selected="">solarized</option>
+                  <option>icecoder</option>
+                  <option>railscasts</option>
+                  <option>zenburn</option>
+                  <option>hopscotch</option>
+                  <option>material</option>
+                  <option>cobalt</option>
+                  <option>eclipse</option>
+                  <option>mdn-like</option>
+            </select></div>
+          </div>
+          <div class="col-sm-3">
+            <div class="btn-group bootstrap-select custom_editor _indent show-tick" style="width: 100%;"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="2 Spaces"><span class="filter-option pull-left">2 Spaces</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open"><ul class="dropdown-menu inner" role="menu"><li data-original-index="0" class="selected"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">2 Spaces</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="1"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">4 Spaces</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select class="custom_editor selectpicker_indent show-tick" data-width="100%" tabindex="-98">
+                <option selected="" value="2">2 Spaces</option>
+                <option value="4">4 Spaces</option>
+            </select></div>
+          </div>
+          <div class="col-sm-2">
+            <button id="custom_theme_save_button" type="button" class="btn btn-block" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-md-12">
+            <textarea name="program_text_demo" id="program_text_demo" data-languages-sample-text="{&quot;php&quot;:{&quot;stubs&quot;:&quot;\u003c?php\n// Comment goes here. There&#39;s a price for everything.\nfunction foo() {\n    return \&quot;Hello world!\&quot;;\n}\necho foo();\n?\u003e\n&quot;},&quot;rb&quot;:{&quot;stubs&quot;:&quot;# Comment goes here. Winter is coming.\nclass Main\n  def foo\n    i = 10\n    return \&quot;Hello World!\&quot;\n  end\nend\nputs Main.new.foo\n&quot;},&quot;pl&quot;:{&quot;stubs&quot;:&quot;# Comment goes here. Code blooded?\n%data = (0 =\u003e &#39;Hello&#39;, 1 =\u003e &#39;Hello World!&#39;);\nprint \&quot;$data{1}\&quot;;\n\n@ages = (25, 30, 40);\n@names = (\&quot;Hello\&quot;, \&quot;World\&quot;, \&quot;Hello World!\&quot;);\n\nprint \&quot;$names[2] = $names[2]\&quot;;\n&quot;},&quot;java&quot;:{&quot;stubs&quot;:&quot;// Comment goes here. Rock music increases concentration. Isn&#39;t it?\nclass Main {\n  public static void main(String args[] ) {\n    int n = 0;\n    System.out.println(foo());\n  }\n  static String foo(){\n    return \&quot;Hello World!\&quot;;\n  }\n}\n&quot;},&quot;c&quot;:{&quot;stubs&quot;:&quot;// Comment goes here. Mother of all? or Dad?\n#include \u003cstdio.h\u003e\nvoid foo()\n{\n  printf(\&quot;Hello World\&quot;);\n}\nint main()\n{\n  int c = 1;\n  foo();\n  return 0;\n}\n&quot;},&quot;cpp&quot;:{&quot;stubs&quot;:&quot;// Comment goes here. Or let it be.\n#include \u003ciostream\u003e\nusing namespace std;\nvoid foo()\n{\n  cout\u003c\u003c\&quot;Hello World\&quot;;\n}\nint main()\n{\n  int c = 1;\n  foo();\n  return 0;\n}\n&quot;},&quot;sql&quot;:{&quot;stubs&quot;:&quot;# Comment goes here. Select Nothing from Nothing where its=Nothing\nCREATE TABLE MAIN (\n  ID int,\n  Message varchar(255)\n);\n\nINSERT INTO MAIN(ID, Message) VALUES(1, &#39;Hello World&#39;);\n&quot;},&quot;py&quot;:{&quot;stubs&quot;:&quot;# Comment goes here. Black one?\nclass Main:\n  a = 10\n  def foo(self):\n    return &#39;Hello World&#39;\n\nobj = Main()\nprint obj.foo()\n&quot;},&quot;cs&quot;:{&quot;stubs&quot;:&quot;// Comment goes here. Is it really sharp?\nusing System;\n\npublic class Main\n{\n  static public void Main ()\n  {\n    Console.WriteLine (\&quot;Hello Mono World\&quot;);\n  }\n}\n&quot;}}" style="max-height: 70px; display: none;">{"test.c": "#include &lt;stdio.h&gt;\n\nint main()\n{\n  printf(\"Hello World!\\n\");\n  return 0;\n}"}</textarea><div class="CodeMirror cm-s-solarized CodeMirror-wrap" style="height: 606px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="display: block; bottom: 0px;"><div style="min-width: 1px; height: 50px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; border-bottom: 0px solid transparent;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div><div class="CodeMirror-gutter CodeMirror-lint-markers"></div></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div style="float: left; padding: 2% 2%; margin-bottom: 20px; background-color: #eee; width: 35%; min-height: 200px; display: none;">
+
+  <div>
+
+  </div>
+  <div style="float: left; display: none;">
+    <p>
+      <strong>User time limit:</strong>
+      30
+    </p>
+
+    <p>
+      <strong>Cpu time limit:</strong>
+      10
+    </p>
+
+    <p>
+      <strong>Memory limit:</strong>
+      10
+    </p>
+  </div>
+  <div style="clear:both;"></div>
+</div>
+
+<div class="hidden_event_data_url" data-event-id="1179" data-user-event-id="66097" data-problem-id="284" data-get-clipboard-text-path="/user_events/66097/clipboard_text" data-update-clipboard-text-path="/user_events/66097/update_clipboard" data-event-path="/events/1179" data-alive-status-url-path="/events/problem_alive_status" data-andromeda-url="https://andromeda-production-elb.codelitmus.com" data-user-id="53031"></div>
+
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-707704-11', 'auto');
+  ga('send', 'pageview');
+
+</script>
+		<script>
+		//   var problemDescriptionEditor = CodeMirror.fromTextArea(document.getElementById("problem_problem_description"), {
+		//     	lineNumbers: true,
+		//   	theme: "night",
+		//    mode: "markdown",
+		//       extraKeys: {"Enter": "newlineAndIndentContinueMarkdownList"}
+		//   });
+		//   var cStubEditor = CodeMirror.fromTextArea(document.getElementById("problem_stub"), {
+		//     	lineNumbers: true,
+		//   	theme: "night",
+		//    mode: "text/x-csrc"
+		//   });
+		//   var cSubmissionEditor = CodeMirror.fromTextArea(document.getElementById("submission_program_text"), {
+		//     	lineNumbers: true,
+		//   	theme: "night",
+		//    mode: "text/x-csrc"
+		//   });
+		</script>
+	      <script src="./Murder mystery - Codelitmus_files/show-20c1cb98dc7ee4a0c8ee13b10582a1292f25901789c346f6736dc687897a6b3d.js.descarga"></script>
+  <script src="./Murder mystery - Codelitmus_files/show-8f182d521604cf0c8a84c9a57fe0658fb6b32588aa4a3923cef4d0c01d389619.js.descarga"></script>
+  
+  <script src="./Murder mystery - Codelitmus_files/user_reporting-65aa7d5d8229fbdfce50d789489271934ddf82490ca70e54f5755fb61b72c6aa.js.descarga"></script>
+
+	
+
+</body></html>
