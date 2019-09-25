@@ -84,7 +84,7 @@ a{
 .contact-item{
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 .contact-icon{
     height: 35px;
@@ -111,7 +111,10 @@ a{
     width: 90%;
     margin: 0 5%;
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+}
+.project-info > div{
+    margin-bottom: 10px;
 }
 @media (min-width: 801px) {
     .project-card{
