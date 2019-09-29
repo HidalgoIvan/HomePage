@@ -116,7 +116,7 @@ a{
 .project-info > div{
     margin-bottom: 10px;
 }
-@media (min-width: 801px) {
+@media (min-width: 1201px) {
     .project-card{
         flex-direction: row-reverse;
     }
@@ -128,7 +128,7 @@ a{
         width: 65%;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .project-card{
         flex-direction: column;
     }
