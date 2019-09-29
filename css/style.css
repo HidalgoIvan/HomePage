@@ -97,6 +97,8 @@ a{
     font-size: 1.5em;
     line-height: 1.5em;
     padding-left: 10px;
+    color: black;
+    font-weight: 100;
 }
 #whatsapp-icon{
     background-image: url('../img/whatsapp-icon.png');
@@ -106,6 +108,9 @@ a{
 }
 #facebook-icon{
     background-image: url('../img/facebook-icon.png');
+}
+#resume-icon{
+    background-image: url('../img/resume.png');
 }
 .project-card{
     width: 90%;
