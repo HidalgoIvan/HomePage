@@ -213,6 +213,9 @@ a{
     align-items: center;
     flex-wrap: wrap;
 }
+#g-docs{
+    background-image: url('../img/gdocs-logo.png');
+}
 #e-card{
     background-image: url('../img/e-card.png');
 }
