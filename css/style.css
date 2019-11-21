@@ -124,34 +124,6 @@ a{
 .project-info > div{
     margin-bottom: 10px;
 }
-@media (min-width: 1201px) {
-    .project-card{
-        flex-direction: row-reverse;
-    }
-    .project-image{
-        height: auto;
-        width: 30%;
-    }
-    .project-info{
-        width: 65%;
-    }
-}
-@media (max-width: 1200px) {
-    .project-card{
-        flex-direction: column;
-    }
-    .project-image{
-        height: 200px;
-        width: 100%;
-        margin-bottom: 25px !important;
-    }
-    .project-tags > div:nth-child(n+2){
-        margin: 3px 0;
-    }
-    .project-info{
-        width: 100%;
-    }
-}
 .project-title{
     font-weight: bold;
     font-size: 1.5em;
@@ -233,4 +205,48 @@ a{
 }
 #cvut-logo{
     background-image: url('../img/cvut-logo.jpg');
+}
+@media (min-width: 1201px) {
+    .project-card{
+        flex-direction: row-reverse;
+    }
+    .project-image{
+        height: auto;
+        width: 30%;
+    }
+    .project-info{
+        width: 65%;
+    }
+}
+/*  Mobile  */
+@media (max-width: 1200px) {
+    .project-card{
+        flex-direction: column;
+    }
+    .project-image{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 25px !important;
+    }
+    .project-tags > div:nth-child(n+2){
+        margin: 3px 0;
+    }
+    .project-info{
+        width: 100%;
+    }
+    .contact-item{
+        font-size: 1.5em;
+    }
+    .project-title, .project-position, .project-description{
+        padding-bottom: 10px;
+    }
+    .project-title{
+        font-size: 1.6em;
+    }
+    .project-resource, .project-tags > div{
+        font-size: 1.2em;
+    }
+    .project-tags > div:nth-child(n+2){
+        margin: 5px;
+    }
 }
