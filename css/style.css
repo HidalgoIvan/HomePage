@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    width: 100vw;
 }
 a{
     font-family: 'Montserrat', sans-serif;
