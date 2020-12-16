@@ -130,6 +130,9 @@ a{
     font-size: 1.5em;
     text-align: justify;
 }
+.project-location {
+    font-style: italic;
+}
 .project-resource-list{
     display: flex;
     margin-right: 15px;
@@ -161,6 +164,12 @@ a{
 }
 .project-features-title{
     font-weight: bold;
+}
+.project-responsibilities{
+    text-align: justify;
+}
+.project-responsibilities > div{
+    margin-bottom: 12px;
 }
 .project-position{
     margin: 5px 0 !important;
@@ -206,6 +215,9 @@ a{
 }
 #cvut-logo{
     background-image: url('../img/cvut-logo.jpg');
+}
+#aura-logo{
+    background-image: url('../img/aura.png');
 }
 @media (min-width: 1201px) {
     .project-card{
